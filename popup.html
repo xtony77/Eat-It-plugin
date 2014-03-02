@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+  	<style type="text/css">
+			body{
+				width: 300px;
+			}
+  	</style>
+  </head>
+  <body>
+  	<form name="form1" method="post" action="http://localhost/get_value.php" target="_blank">
+  		<table class="table table-bordered">
+  			<tr>
+  				<td><h1>Eat It!</h1></td>
+  			</tr>
+  			<tr>
+  				<td>
+  					<h4>餐廳名稱</h4>
+	    			<input type="text" name="name" id="name" placeholder="餐廳名稱" class="form-control" required="required" value="">
+	    		</td>
+  			</tr>
+  			<tr>
+					<td>
+						<h4>餐廳地址</h4>
+    				<input type="text" name="address" id="address" placeholder="餐廳地址" class="form-control" required="required" value="">
+					</td>  				
+  			</tr>
+				<tr>
+					<td>
+						<h4>餐廳電話</h4>
+	    			<input type="text" name="tel" id="tel" placeholder="餐廳電話" class="form-control" required="required" value="">
+					</td>
+				</tr>
+		    <tr>
+		    	<td align='right'>
+		    		<input type="submit" name="submit" class="btn btn-primary" value="送出">
+		    	</td>
+		    </tr>
+		  </table>
+	  </form>
+  </body>
+</html>
